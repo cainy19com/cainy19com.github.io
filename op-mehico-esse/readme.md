@@ -15,8 +15,15 @@ my little Mehico esse.
 Github app, web mobile, and io pages
 have varying support for math.
 
+- app can't view math
+- mobile layout too narrow for math eq
+- pages don't suppurt math and links in default
+
+Their math lib is diff from Latex.
+
 I write in app with Katex,
-view in pages.
+and view in pages,
+with custom format.
 
 https://katex.org/
 
