@@ -73,9 +73,9 @@ x, y \\[5px]
 a = x - \mu_x \\[5px]
 b = y - \mu_y \\[5px]
 a^2, b^2, ab \\[5px]
-Cor = \frac{\sum ab}{\sqrt{\sum a^2\sum b^2}} \\[5px]
-Cor = \frac{Cov N}{\sqrt{Var_xN Var_yN}} \\[5px]
-Cor = \frac{Cov}{\sigma_x\sigma_y} \\[5px]
+Cor = \displaystyle\frac{\sum ab}{\sqrt{\sum a^2\sum b^2}} \\[5px]
+Cor = \displaystyle\frac{Cov N}{\sqrt{Var_xN Var_yN}} \\[5px]
+Cor = \displaystyle\frac{Cov}{\sigma_x\sigma_y} \\[5px]
 ```
 
 Cor is product-of-stddev (variance sqrt) scaled Cov.
