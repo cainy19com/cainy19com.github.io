@@ -24,10 +24,12 @@ e^{\frac{-(x-\mu)^2}{2\sigma^2}}
 
 It's still the negative quadratic
 on the exponent,
-only shifted by mean,
-and the whole function
-scaled on two places that has $2\sigma^2$,
-with one place that has an extra $\pi$.
+only shifted by mean
+and scaled by $2\sigma^2$.
+
+The whole function
+is also scaled by $2\sigma^2$,
+with an extra $\pi$.
 
 ---
 
@@ -39,12 +41,16 @@ This article says
 Gauss's train of thought
 from astronomy observation errors
 point of view
-is both natural and easier to understand.
+is both more natural and easier to understand.
 
 I did not follow the derivation,
 but it does seem natural
 why $e$ and $\pi$ both showed up
-in the formula.
+in the formula,
+if the skip
+from likelihood to log likelihood
+is well explained,
+which isn't.
 
 The history offers
 a peace of mind
