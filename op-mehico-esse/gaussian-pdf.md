@@ -79,6 +79,8 @@ There are also determinant and transpose.
 
 This form is unlikely to be easily understood.
 
+https://www.mathsisfun.com/algebra/matrix-determinant.html
+
 ---
 
 <link rel="stylesheet" href="https://cainy19com.github.io/katex/katex.min.css">
