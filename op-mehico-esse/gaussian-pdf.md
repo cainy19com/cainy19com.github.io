@@ -190,6 +190,30 @@ also as combinations of sigmas...
 
 ---
 
+By the clarity of this example,
+here are some observations.
+
+On the exponent.
+
+In 1D,
+first get the raw error,
+then compare it to stddev,
+to get a score,
+then squared.
+
+In 2D and above,
+first get error vector,
+then linear transform it with $\Sigma^{-1}$,
+before dot product (within matrix)
+with the error vector,
+to get a measure of agreement or score (between vectors).
+
+The geometric intuition
+and answers to these questions
+is the next step of understanding.
+
+---
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
 <script src="https://cainy19com.github.io/katex/format.js"><script>
