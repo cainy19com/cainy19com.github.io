@@ -58,7 +58,7 @@ An example inspired by above process.
 
 ```math
 \displaylines{
-x = (30, 31, 32, 33, 34, 35) \\
+x = (30, 31, 32, 33, 34, 35) \\\
 y = (100, 150, 200, 250, 300, 350)
 }
 ```
