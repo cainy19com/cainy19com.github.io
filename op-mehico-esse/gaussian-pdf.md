@@ -79,15 +79,28 @@ There are also determinant and transpose.
 
 This form is unlikely to be easily understood.
 
+---
+
 https://www.mathsisfun.com/algebra/matrix-determinant.html
 
 https://www.quora.com/What-does-the-determinant-of-a-matrix-mean/answer/Sridhar-Ramesh
 
 https://www.quora.com/What-does-the-determinant-of-a-matrix-mean/answer/Eric-Platt-9
 
+https://en.wikipedia.org/wiki/Standard_score
+
+https://en.wikipedia.org/wiki/Mahalanobis_distance
+
 ---
 
 ```meth
+p(x;\mu,\sigma^2)=
+\displaystyle
+\frac{1}{\sigma\sqrt{2\pi}}
+e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}
+
+\\[5px]
+
 p(x;\mu,\Sigma)=
 \displaystyle
 \frac{1}{\sqrt{(2\pi)^N|\Sigma|}}
