@@ -83,8 +83,8 @@ Cor = \frac{Cov}{\sigma_x\sigma_y} \\
 
 Cor is product-of-stddev (variance sqrt) scaled Cov.
 
-See $x,y,a,b$ as vector,
-and think vector as point in high dimensional space.
+See $x,y,a,b$ as vectors,
+and think vectors as points in high dimensional space.
 
 Cosine of angle between the two vectors
 can be seen as a measure of correlation.
