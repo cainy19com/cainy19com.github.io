@@ -83,6 +83,19 @@ https://www.mathsisfun.com/algebra/matrix-determinant.html
 
 ---
 
+```meth
+p(x;\mu,\Sigma)=
+\displaystyle
+\frac{1}{\sqrt{(2\pi)^N|\Sigma|}}
+e^{-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu)}
+
+\\[5px]
+
+X \sim \mathcal N(\mu,\Sigma)
+```
+
+---
+
 <link rel="stylesheet" href="https://cainy19com.github.io/katex/katex.min.css">
 <script src="https://cainy19com.github.io/katex/katex.min.js"></script>
 <script src="https://cainy19com.github.io/katex/format.js"><script>
