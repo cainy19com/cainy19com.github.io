@@ -6,7 +6,7 @@ The start-somewhere starts from there...
 
 Google search, found this article, really good.
 
-Children-friendly, great temperature & ice-cream example, clearly explained.
+Children-friendly, great temperature & ice cream example, clearly explained.
 
 https://www.mathsisfun.com/data/correlation.html
 
@@ -18,6 +18,7 @@ one can see glimpse of covariance and variance.
 Same site has both.
 
 https://www.mathsisfun.com/data/covariance.html
+
 https://www.mathsisfun.com/data/standard-deviation.html
 
 ---
@@ -25,38 +26,40 @@ https://www.mathsisfun.com/data/standard-deviation.html
 Double check the formulas presented on the website.
 
 https://www.google.com/search?q=correlation+formula
+
 https://www.google.com/search?q=covariance+formula
+
 https://www.google.com/search?q=variance+formula
 
 ---
 
-What is the history of the corelation formula?
+What is the history of the correlation formula?
 
 What is the intuition behind it?
 
-Why is it strutured this way?
+Why is it structured this way?
 
-Why corrlation, covariance and variance
-are related this way?
+Why correlation, covariance and variance
+are related as such?
 
-Good search, some good answers.
+Google search, some good answers.
 
 https://stats.stackexchange.com/a/635640
+
 https://www.mathsisfun.com/algebra/vectors-dot-product.html
 
 ---
 
-x is temperature,
-y is ice cream sale.
+An example inspired by above process.
+
+$x$ is temperature,
+$y$ is ice cream sale.
 
 See both as vector,
-and vector as point
-in high dimensional space.
+and think vector as point in high dimensional space.
 
-Cosine angle between 
-the two vectors
-can be seen as
-a measure of corelation.
+Cosine angle between the two vectors
+can be seen as a measure of correlation.
 
 
 ```math
