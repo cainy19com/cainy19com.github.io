@@ -117,6 +117,8 @@ The simplest case.
 
 Covariance matrix is diagonal.
 
+https://cs229.stanford.edu/section/gaussians.pdf
+
 For 3 variable non-diagonal,
 it can quickly get complicated.
 
