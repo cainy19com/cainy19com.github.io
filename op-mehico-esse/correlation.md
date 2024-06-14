@@ -56,7 +56,7 @@ Covariance is like dot product
 of two vectors scaled by $N$.
 
 Variance is like dot product
-of vector with itself scaled by $N$.
+of one vector with itself scaled by $N$.
 
 https://www.mathsisfun.com/algebra/vectors-dot-product.html
 
