@@ -52,15 +52,28 @@ https://www.mathsisfun.com/algebra/vectors-dot-product.html
 
 An example inspired by above process.
 
+```math
+\displaylines{
+x = (30, 31, 32, 33, 34, 35) \\
+y = (100, 150, 200, 250, 300, 350)
+}
+```
+
 $x$ is temperature,
 $y$ is ice cream sale.
 
 See both as vector,
 and think vector as point in high dimensional space.
 
-Cosine angle between the two vectors
+Cosine of angle between the two vectors
 can be seen as a measure of correlation.
 
+Correlation formula is really just
+finding the cosine of the angle
+between two vectors.
+
+Cosine range from -1 to 1,
+natually normalized.
 
 ```math
 \displaylines{
@@ -69,11 +82,11 @@ x, y \\
 a = x - \mu_x \\
 b = y - \mu_y \\
 a^2, b^2, ab \\
-cor = \frac{\sum ab}{\sqrt{\sum a^2\sum b^2}} \\
-cor = \frac{cov N}{\sqrt{var_aN var_bN}} \\
-cor = \frac{cov}{\sigma_a\sigma_b} \\
+Cor = \frac{\sum ab}{\sqrt{\sum a^2\sum b^2}} \\
+Cor = \frac{Cov N}{\sqrt{var_aN var_bN}} \\
+Cor = \frac{Cov}{\sigma_a\sigma_b} \\
 
 }
 ```
 
-cor is sigma product scaled covariance 
+Cor is stddev-product scaled Cov.
