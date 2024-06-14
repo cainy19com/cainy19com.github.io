@@ -1,6 +1,6 @@
 # Correlation
 
-This (mehico) esse is about correlation.
+This log is about correlation.
 
 The start-somewhere starts from there...
 
