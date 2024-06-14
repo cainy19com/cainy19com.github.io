@@ -1,4 +1,4 @@
-## Todo
+## Todo 📝
 
 - online katex math editor
 - various img dler
@@ -6,9 +6,9 @@
 
 ---
 
-## Projects
+## Projects 🚀
 
-[op-mehico-esse](op-mehico-esse)
+[https://cainy19com.github.io/op-mehico-esse/](op-mehico-esse)
 
 ---
 
