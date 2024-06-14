@@ -13,9 +13,10 @@ window.onload = () => {
       p.innerHTML = `<a href="${text}">${text}</a>`
     }
     else {
-      p.innerHTML = text.replaceAll(/\$[^\$]*\$/gi, match => {
+      p.innerHTML = text.replaceAll(/\$([^\$]*)\$/gi, (m, m1) => {
         const span = document.createElement("span")
-        return katex.render(match, span, {throwOnError: false})
+        katex.render(m1, span, {throwOnError: false})
+        return span.innerHTML
       })
     }
   })
