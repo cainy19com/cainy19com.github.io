@@ -60,7 +60,7 @@ the multivariate formula.
 
 ---
 
-2D & Above
+Multivariate
 
 ```meth
 \displaystyle
@@ -109,6 +109,70 @@ e^{-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu)}
 \\[5px]
 
 X \sim \mathcal N(\mu,\Sigma)
+```
+
+---
+
+Simplest case.
+
+```meth
+(x-\mu)^T\Sigma^{-1}(x-\mu)
+
+\\[5px]
+
+x = \begin{bmatrix}
+x_1 \\
+x_2
+\end{bmatrix}
+
+,\
+
+\mu = \begin{bmatrix}
+\mu_1 \\
+\mu_2
+\end{bmatrix}
+
+,\
+
+\Sigma = \begin{bmatrix}
+\sigma_1^2 & 0\\
+0 & \sigma_2^2
+\end{bmatrix}
+
+\\[5px]
+
+\begin{bmatrix}
+x_1 - \mu_1\\
+x_2 - \mu_2
+\end{bmatrix}^T
+
+\begin{bmatrix}
+\frac 1 {\sigma_1^2} & 0\\
+0 & \frac 1 {\sigma_2^2}
+\end{bmatrix}
+
+\begin{bmatrix}
+x_1 - \mu_1\\
+x_2 - \mu_2
+\end{bmatrix}
+
+\\[5px]
+
+\begin{bmatrix}
+x_1 - \mu_1 &
+x_2 - \mu_2
+\end{bmatrix}
+
+\begin{bmatrix}
+a(x_1-\mu_1)\\
+b(x_2 - \mu_2)
+\end{bmatrix}
+
+\\[5px]
+
+\begin{bmatrix}
+a(x_1-\mu_1)^2 + b(x_2 - \mu_2)^2
+\end{bmatrix}
 ```
 
 ---
