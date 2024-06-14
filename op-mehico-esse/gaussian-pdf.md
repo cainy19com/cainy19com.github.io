@@ -60,6 +60,27 @@ the multivariate formula.
 
 ---
 
+>= 2D
+
+```meth
+\displaystyle
+\frac{1}{\sqrt{(2\pi)^k \det\Sigma}}
+e^{\frac{-(x-\mu)^T(x-\mu)}{2\Sigma}}
+```
+
+The similarity from
+the 1D memory-friendly version
+can still be seen.
+
+Apart from variance became covariance matrix,
+$2\pi$ is raised to $N$th power.
+
+There are also determinant and transpose.
+
+This form is unlikely to be easily understood.
+
+---
+
 <link rel="stylesheet" href="https://cainy19com.github.io/katex/katex.min.css">
 <script src="https://cainy19com.github.io/katex/katex.min.js"></script>
 <script src="https://cainy19com.github.io/katex/format.js"><script>
