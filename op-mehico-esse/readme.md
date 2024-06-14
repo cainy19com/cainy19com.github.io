@@ -29,7 +29,8 @@ https://katex.org/
 
 ---
 
-https://cainy19com.github.io/op-mehico-esse/correlation \
+https://cainy19com.github.io/op-mehico-esse/correlation
+
 https://cainy19com.github.io/op-mehico-esse/gaussian-pdf
 
 ---
