@@ -28,3 +28,7 @@ with custom format.
 https://katex.org/
 
 ---
+
+<link rel="stylesheet" href="katex/katex.min.css">
+<script src="katex/katex.min.js"></script>
+<script src="katex/format.js"><script>
