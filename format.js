@@ -15,7 +15,7 @@ window.onload = () => {
     else {
       p.innerHTML = text.replaceAll(/\$([^\$]*)\$/gi, (m, m1) => {
         const span = document.createElement("span")
-        katex.render(m1, span, {throwOnError: false})
+        katex.render(`\displaystyle{${m1}}`, span, {throwOnError: false})
         return span.innerHTML
       })
     }
