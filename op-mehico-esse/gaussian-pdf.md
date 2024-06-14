@@ -18,14 +18,39 @@ Only some shift and scale are needed.
 
 ```meth
 \displaystyle
-p(x) = \frac{1}{\sqrt{2\sigma^2\pi}}
+\frac{1}{\sqrt{2\sigma^2\pi}}
 e^{\frac{-(x-\mu)^2}{2\sigma^2}}
 ```
 
-It's still the negative quadratic,
-only shifted by mean
-and scaled on two places that has $2\sigma^2$,
+It's still the negative quadratic
+on the exponent,
+only shifted by mean,
+and the whole function
+scaled on two places that has $2\sigma^2$,
 with one place that has an extra $\pi$.
+
+---
+
+How to derive the formula?
+
+https://notarocketscientist.xyz/posts/2023-01-27-how-gauss-derived-the-normal-distribution/
+
+This article says
+Gauss's train of thought
+from astronomy observation errors
+point of view
+is both natural and easier to understand.
+
+I did not follow the derivation,
+but it does seem natural
+why $e$ and $\pi$ both showed up
+in the formula.
+
+The history offers
+a peace of mind
+and some confidence,
+for what I want is to understand
+the multivariate formula.
 
 ---
 
