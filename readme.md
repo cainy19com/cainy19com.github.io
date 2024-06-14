@@ -11,7 +11,7 @@ x
 ```
 
 
-<script src="format.js"><script>
-<link rel="stylesheet" href="katex.min.css" crossorigin="anonymous">
-<script src="katex.min.js" crossorigin="anonymous"></script>
 
+<link rel="stylesheet" href="katex.min.css">
+<script src="katex.min.js"></script>
+<script src="format.js"><script>
