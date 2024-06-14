@@ -64,7 +64,7 @@ the multivariate formula.
 
 ```meth
 \displaystyle
-\frac{1}{\sqrt{(2\pi)^k \det\Sigma}}
+\frac{1}{\sqrt{(2\pi)^N \det\Sigma}}
 e^{\frac{-(x-\mu)^T(x-\mu)}{2\Sigma}}
 ```
 
