@@ -9,7 +9,14 @@ window.onload = () => {
   
   $$("p").forEach(p => {
     const text = p.innerText.trim()
-    if (text.startsWith("http"))
+    if (text.startsWith("http")) {
       p.innerHTML = `<a href="${text}">${text}</a>`
+    }
+    else {
+      p.innerHTML = text.replaceAll(/\$[^\$]*\$/gi, match => {
+        const span = document.createElement("span")
+        return katex.render(match, span, {throwOnError: false})
+      })
+    }
   })
 }
