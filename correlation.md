@@ -56,19 +56,16 @@ https://www.mathsisfun.com/algebra/vectors-dot-product.html
 
 An example inspired by above process.
 
-```math
-\displaylines{
-x = (30, 31, 32, 33, 34, 35) \\\
+```meth
+x = (30, 31, 32, 33, 34, 35) \newline
 y = (100, 150, 200, 250, 300, 350)
-}
 ```
 
 $x$ is temperature,
 $y$ is ice cream sale,
 $\mu$ is mean.
 
-```math
-\displaylines{
+```meth
 x, y \\
 \mu_x, \mu_y \\
 a = x - \mu_x \\
@@ -77,8 +74,6 @@ a^2, b^2, ab \\
 Cor = \frac{\sum ab}{\sqrt{\sum a^2\sum b^2}} \\
 Cor = \frac{Cov N}{\sqrt{Var_xN Var_yN}} \\
 Cor = \frac{Cov}{\sigma_x\sigma_y} \\
-
-}
 ```
 
 Cor is product-of-stddev (variance sqrt) scaled Cov.
