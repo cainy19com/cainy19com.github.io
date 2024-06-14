@@ -1,8 +1,9 @@
 - a katex math editor
 - various img dler
+- favicon
 - ...
 
-https://cainy19com.github.io/op-mehico-esse
+[op-mehico-esse](op-mehico-esse)
 
 ---
 
