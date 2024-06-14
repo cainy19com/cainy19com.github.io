@@ -3,7 +3,7 @@ const $$ = document.querySelectorAll.bind(document)
 
 window.onload = () => {
   $$("code.language-meth").forEach(code => {
-    const exp = "\displaystyle{" + code.innerText + "}"
+    const exp = code.innerText
     katex.render(exp, code, {throwOnError: false})
   })
   
