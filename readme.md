@@ -13,5 +13,5 @@ x
 
 <script src="format.js"><script>
 <link rel="stylesheet" href="katex.min.css" crossorigin="anonymous">
-<script defer src="katex.min.js" crossorigin="anonymous"></script>
+<script src="katex.min.js" crossorigin="anonymous"></script>
 
