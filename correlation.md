@@ -1,11 +1,3 @@
-<link rel="stylesheet" href="katex.min.css">
-<script src="katex.min.js"></script>
-<script src="format.js"><script>
-
-
-
-
-
 This (mehico) esse is about correlation.
 
 The start-somewhere starts from there...
@@ -103,3 +95,9 @@ between two vectors.
 
 Cosine range from -1 to 1,
 naturally normalized.
+
+---
+
+<link rel="stylesheet" href="katex.min.css">
+<script src="katex.min.js"></script>
+<script src="format.js"><script>
