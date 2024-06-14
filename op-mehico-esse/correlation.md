@@ -95,6 +95,6 @@ naturally normalized.
 
 ---
 
-<link rel="stylesheet" href="katex.min.css">
-<script src="katex.min.js"></script>
-<script src="format.js"><script>
+<link rel="stylesheet" href="katex/katex.min.css">
+<script src="katex/katex.min.js"></script>
+<script src="katex/format.js"><script>
