@@ -60,7 +60,8 @@ y = (100, 150, 200, 250, 300, 350)
 ```
 
 $x$ is temperature,
-$y$ is ice cream sale.
+$y$ is ice cream sale,
+$\mu$ is mean.
 
 See both as vector,
 and think vector as point in high dimensional space.
@@ -73,7 +74,7 @@ finding the cosine of the angle
 between two vectors.
 
 Cosine range from -1 to 1,
-natually normalized.
+naturally normalized.
 
 ```math
 \displaylines{
@@ -83,10 +84,10 @@ a = x - \mu_x \\
 b = y - \mu_y \\
 a^2, b^2, ab \\
 Cor = \frac{\sum ab}{\sqrt{\sum a^2\sum b^2}} \\
-Cor = \frac{Cov N}{\sqrt{var_aN var_bN}} \\
+Cor = \frac{Cov N}{\sqrt{Var_aN Var_bN}} \\
 Cor = \frac{Cov}{\sigma_a\sigma_b} \\
 
 }
 ```
 
-Cor is stddev-product scaled Cov.
+Cor is product-of-stddev scaled Cov.
