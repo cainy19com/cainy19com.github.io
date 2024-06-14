@@ -88,7 +88,7 @@ Cor is product-of-stddev (variance sqrt)
 scaled/normalized Cov.
 
 stddev is actually vector length
-scaled by $sqrt N$.
+scaled by $sqrt(N)$.
 
 See $x,y,a,b$ as vectors,
 and think vectors as points in high dimensional space.
