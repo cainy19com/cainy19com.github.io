@@ -113,7 +113,18 @@ X \sim \mathcal N(\mu,\Sigma)
 
 ---
 
-Simplest case.
+The simplest case.
+
+Covariance matrix is diagonal.
+
+For 3 variable non-diagonal,
+it can quickly get complicated.
+
+There will be combinations like
+$(x_1-\mu_1)(x_2-\mu_2)$
+other than squared,
+and their coefficients
+also as combinations of sigmas...
 
 ```meth
 (x-\mu)^T\Sigma^{-1}(x-\mu)
