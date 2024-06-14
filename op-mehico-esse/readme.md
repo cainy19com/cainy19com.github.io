@@ -17,9 +17,9 @@ have varying support for math.
 
 - app can't view math
 - mobile layout too narrow for math eq
-- pages don't suppurt math and links in default
+- pages don't support math and links
 
-Their math lib is diff from Latex.
+Their math lib has grammar diff from Katex.
 
 I write in app with Katex,
 and view in pages,
