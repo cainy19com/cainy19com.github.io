@@ -29,6 +29,6 @@ https://katex.org/
 
 ---
 
-<link rel="stylesheet" href="katex/katex.min.css">
-<script src="katex/katex.min.js"></script>
-<script src="katex/format.js"><script>
+<link rel="stylesheet" href="https://cainy19com.github.io/katex/katex.min.css">
+<script src="https://cainy19com.github.io/katex/katex.min.js"></script>
+<script src="https://cainy19com.github.io/katex/format.js"><script>
