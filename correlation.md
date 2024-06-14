@@ -57,7 +57,7 @@ https://www.mathsisfun.com/algebra/vectors-dot-product.html
 An example inspired by above process.
 
 ```meth
-x = (30, 31, 32, 33, 34, 35) \newline
+x = (30, 31, 32, 33, 34, 35) \\[5px]
 y = (100, 150, 200, 250, 300, 350)
 ```
 
