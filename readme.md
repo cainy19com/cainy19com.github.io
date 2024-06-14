@@ -1,9 +1,12 @@
-- a katex math editor
+## Todo
+
+- online katex math editor
 - various img dler
 - favicon
-- ...
 
 ---
+
+## Projects
 
 [op-mehico-esse](op-mehico-esse)
 
