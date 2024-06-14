@@ -81,11 +81,9 @@ This form is unlikely to be easily understood.
 
 https://www.mathsisfun.com/algebra/matrix-determinant.html
 
-Answer to What does the determinant of a matrix mean? by Sridhar Ramesh
+https://www.quora.com/What-does-the-determinant-of-a-matrix-mean/answer/Sridhar-Ramesh
 
-Answer to What does the determinant of a matrix mean? by Sridhar Ramesh
-
-https://www.quora.com/What-does-the-determinant-of-a-matrix-mean/answer/Sridhar-Ramesh?ch=15&oid=957543&share=a898ce62&srid=340Ckx&target_type=answer
+https://www.quora.com/What-does-the-determinant-of-a-matrix-mean/answer/Eric-Platt-9
 
 ---
 
