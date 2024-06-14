@@ -6,11 +6,15 @@ for the culture.
 *Mehico* accent helps making it less boring.
 I call them my little Mehico esse.
 
-<script src="format.js"><script>
-
 ```math
 x
 ```
+
+
+<script src="format.js"><script>
+
+
+
 
 <link rel="stylesheet" 
 href="https://cdn.jsdelivr.net/npm/katex@0.16.10/d
