@@ -12,7 +12,7 @@ my little Mehico esse.
 
 ---
 
-Github app, web mobile, and pages
+Github app, web mobile, and io pages
 have varying support for math.
 
 I write in app with Katex,
