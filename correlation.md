@@ -42,13 +42,13 @@ Why is it structured this way?
 Why correlation, covariance and variance
 are related as such?
 
-Google search, some good answers.
+Google search, a good answer.
 
 https://stats.stackexchange.com/a/635640
 
 ---
 
-The key insight is vector product.
+The key insight from the answer is vector dot product.
 
 https://www.mathsisfun.com/algebra/vectors-dot-product.html
 
@@ -75,8 +75,8 @@ a = x - \mu_x \\
 b = y - \mu_y \\
 a^2, b^2, ab \\
 Cor = \frac{\sum ab}{\sqrt{\sum a^2\sum b^2}} \\
-Cor = \frac{Cov N}{\sqrt{Var_aN Var_bN}} \\
-Cor = \frac{Cov}{\sigma_a\sigma_b} \\
+Cor = \frac{Cov N}{\sqrt{Var_xN Var_yN}} \\
+Cor = \frac{Cov}{\sigma_x\sigma_y} \\
 
 }
 ```
