@@ -60,7 +60,7 @@ the multivariate formula.
 
 ---
 
-&lt;= 2D
+&gt;= 2D
 
 ```meth
 \displaystyle
