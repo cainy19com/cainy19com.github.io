@@ -64,14 +64,14 @@ https://www.mathsisfun.com/algebra/vectors-dot-product.html
 
 An example inspired by above process.
 
+$x$ is temperature,
+$y$ is ice cream sale,
+$\mu$ is mean.
+
 ```meth
 x = (30, 31, 32, 33, 34, 35) \\[5px]
 y = (100, 150, 200, 250, 300, 350)
 ```
-
-$x$ is temperature,
-$y$ is ice cream sale,
-$\mu$ is mean.
 
 ```meth
 x, y \\[5px]
@@ -84,7 +84,11 @@ Cor = \displaystyle\frac{Cov N}{\sqrt{Var_xN Var_yN}} \\[5px]
 Cor = \displaystyle\frac{Cov}{\sigma_x\sigma_y} \\[5px]
 ```
 
-Cor is product-of-stddev (variance sqrt) scaled Cov.
+Cor is product-of-stddev (variance sqrt)
+scaled/normalized Cov.
+
+stddev is actually vector length
+scaled by $sqrt N$.
 
 See $x,y,a,b$ as vectors,
 and think vectors as points in high dimensional space.
