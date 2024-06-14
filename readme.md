@@ -8,7 +8,7 @@
 
 ## Projects 🚀
 
-[op-mehico-esse](https://cainy19com.github.io/op-mehico-esse)
+[op-mehico-esse](https://cainy19com.github.io/op-mehico-esse/)
 
 ---
 
