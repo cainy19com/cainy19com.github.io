@@ -77,7 +77,7 @@ $2\pi$ is raised to $N$th power.
 
 There are also determinant and transpose.
 
-This form is unlikely to be easily understood.
+This form is however unlikely to be easily understood.
 
 ---
 
@@ -118,15 +118,6 @@ The simplest case.
 Covariance matrix is diagonal.
 
 https://cs229.stanford.edu/section/gaussians.pdf
-
-For 3 variable non-diagonal,
-it can quickly get complicated.
-
-There will be combinations like
-$(x_1-\mu_1)(x_2-\mu_2)$
-other than squared,
-and their coefficients
-also as combinations of sigmas...
 
 ```meth
 (x-\mu)^T\Sigma^{-1}(x-\mu)
@@ -187,6 +178,15 @@ b(x_2 - \mu_2)
 a(x_1-\mu_1)^2 + b(x_2 - \mu_2)^2
 \end{bmatrix}
 ```
+
+For 3 variable non-diagonal,
+it can quickly get complicated.
+
+There will be combinations like
+$(x_1-\mu_1)(x_2-\mu_2)$
+other than squared,
+and their coefficients
+also as combinations of sigmas...
 
 ---
 
