@@ -131,7 +131,7 @@ also as combinations of sigmas...
 ```meth
 (x-\mu)^T\Sigma^{-1}(x-\mu)
 
-\\[5px]
+\\[10px]
 
 x = \begin{bmatrix}
 x_1 \\
@@ -152,7 +152,7 @@ x_2
 0 & \sigma_2^2
 \end{bmatrix}
 
-\\[5px]
+\\[10px]
 
 \begin{bmatrix}
 x_1 - \mu_1\\
@@ -169,7 +169,7 @@ x_1 - \mu_1\\
 x_2 - \mu_2
 \end{bmatrix}
 
-\\[5px]
+\\[10px]
 
 \begin{bmatrix}
 x_1 - \mu_1 &
@@ -181,7 +181,7 @@ a(x_1-\mu_1)\\
 b(x_2 - \mu_2)
 \end{bmatrix}
 
-\\[5px]
+\\[10px]
 
 \begin{bmatrix}
 a(x_1-\mu_1)^2 + b(x_2 - \mu_2)^2
