@@ -3,7 +3,7 @@ const $$ = document.querySelectorAll.bind(document)
 
 window.onload = () => {
   $$("code.language-meth").forEach(code => {
-    const exp = code.innerText
+    const exp = "\displaystyle{" + code.innerText + "}"
     katex.render(exp, code, {throwOnError: false})
   })
   
@@ -15,7 +15,7 @@ window.onload = () => {
     else {
       p.innerHTML = text.replaceAll(/\$([^\$]*)\$/gi, (m, m1) => {
         const span = document.createElement("span")
-        katex.render(`\displaystyle{${m1}}`, span, {throwOnError: false})
+        katex.render(m1, span, {throwOnError: false})
         return span.innerHTML
       })
     }
