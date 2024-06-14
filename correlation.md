@@ -46,6 +46,10 @@ Google search, some good answers.
 
 https://stats.stackexchange.com/a/635640
 
+---
+
+The key insight is vector product.
+
 https://www.mathsisfun.com/algebra/vectors-dot-product.html
 
 ---
@@ -63,19 +67,6 @@ $x$ is temperature,
 $y$ is ice cream sale,
 $\mu$ is mean.
 
-See both as vector,
-and think vector as point in high dimensional space.
-
-Cosine of angle between the two vectors
-can be seen as a measure of correlation.
-
-Correlation formula is really just
-finding the cosine of the angle
-between two vectors.
-
-Cosine range from -1 to 1,
-naturally normalized.
-
 ```math
 \displaylines{
 x, y \\
@@ -91,3 +82,16 @@ Cor = \frac{Cov}{\sigma_a\sigma_b} \\
 ```
 
 Cor is product-of-stddev scaled Cov.
+
+See both as vector,
+and think vector as point in high dimensional space.
+
+Cosine of angle between the two vectors
+can be seen as a measure of correlation.
+
+Correlation formula is really just
+finding the cosine of the angle
+between two vectors.
+
+Cosine range from -1 to 1,
+naturally normalized.
