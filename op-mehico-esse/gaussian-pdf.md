@@ -4,8 +4,8 @@ Symmetric,
 central values more likely,
 and smooth.
 
-Something to do with
-approximate gambling probability
+Its history has something to do
+with approximate gambling probability
 and finding the error curve.
 
 ---
@@ -63,7 +63,7 @@ Multivariate
 e^{\frac{-(x-\mu)^T(x-\mu)}{2\Sigma}}
 ```
 
-The similarity from
+The similarity against
 the 1D memory-friendly version
 can still be seen.
 
@@ -73,7 +73,9 @@ $N$th (dimension of vector) power.
 
 There are also determinant and transpose.
 
-This form is however unlikely to be easily understood.
+This form is however
+unlikely to be easily understood,
+and possibly not even correct.
 
 ---
 
