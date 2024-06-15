@@ -8,8 +8,8 @@ window.onload = () => {
   })
   
   $$("p").forEach(p => {
-    p.innerHTML = p.innerHTML.replaceAll("BRRR", "<br>")
-    const text = p.innerText.trim()
+    // p.innerHTML = p.innerHTML.replaceAll("BRRR", "<br>")
+    const text = p.innerHTML.trim()
     if (text.startsWith("http")) {
       p.innerHTML = `<a href="${text}">${text}</a>`
     }
