@@ -1,6 +1,8 @@
 # KL-Divergence Loss
 
-Expectation
+
+
+## Expectation
 
 
 ```meth
@@ -9,16 +11,17 @@ Expectation
 = \sum_x p(x) f(x)
 ```
 
-Sum prob weighted $f$ of $x$
+Sum prob weighted $f$ of $x$,\\
+$f(x)$ could be id function, $f(x) = x$.
 
-$x$ follows prob dist $p$
+$x$ follows prob dist $p$.
 
-$f(x)$ could be id function, $f(x) = x$
+
 
 ---
 
 
-Self-information
+## Self-information
 
 
 ```meth
@@ -33,7 +36,7 @@ Self-information
 
 
 
-Entropy
+## Entropy
 
 
 ```meth
@@ -65,7 +68,7 @@ Sum prob weighted self-info.
 
 
 
-Cross-entropy
+## Cross-entropy
 
 
 ```meth
@@ -102,7 +105,7 @@ $x$ follows $q$ in $I$.
 
 
 
-KL-divergence
+## KL-divergence
 
 
 ```meth
