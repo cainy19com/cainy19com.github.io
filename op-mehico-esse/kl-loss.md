@@ -96,13 +96,13 @@ $x$ follows $p$ for $\mathbb E$.
 \large
 
 p: x \sim \mathbb N(\mu_1, \sigma_1^2)
-\\
+\\[5px]
 q: x \sim \mathbb N(\mu_2, \sigma_2^2)
 \\[10px]
 <> \text{ denotes } \mathbb E_{x \sim p}
-\\
+\\[5px]
 \langle x \rangle = \mu_1
-\\
+\\[5px]
 \langle x^2 \rangle = \mu_1^2 + \sigma_1^2
 ```
 
