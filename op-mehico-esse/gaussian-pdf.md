@@ -17,6 +17,8 @@ inspired by a Desmos graph.
 From quadratic to bell curve.
 
 ```meth
+\large
+
 x^2 \\[5px]
 -x^2 \\[5px]
 e^{-x^2}
@@ -27,6 +29,7 @@ Now we have the similar shape.
 Only some shift and scale are needed.
 
 ```meth
+\large
 \displaystyle
 \frac{1}{\sqrt{2\sigma^2\pi}}
 e^{\frac{-(x-\mu)^2}{2\sigma^2}}
@@ -58,6 +61,7 @@ is both more natural and easier to understand.
 Multivariate
 
 ```meth
+\large
 \displaystyle
 \frac{1}{\sqrt{(2\pi)^N \det\Sigma}}
 e^{\frac{-(x-\mu)^T(x-\mu)}{2\Sigma}}
@@ -92,6 +96,8 @@ https://en.wikipedia.org/wiki/Mahalanobis_distance
 ---
 
 ```meth
+\large
+
 p(x;\mu,\sigma^2)=
 \displaystyle
 \frac{1}{\sigma\sqrt{2\pi}}
@@ -122,6 +128,8 @@ Covariance matrix is diagonal.
 https://cs229.stanford.edu/section/gaussians.pdf
 
 ```meth
+\large
+
 (x-\mu)^T\Sigma^{-1}(x-\mu)
 
 \\[10px]
