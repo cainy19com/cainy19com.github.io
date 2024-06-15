@@ -8,7 +8,7 @@
 = \sum_x p(x) f(x)
 ```
 
-Sum prob weighted $f$ of $x$,BRRR
+Sum prob weighted $f$ of $x$,\
 $f(x)$ could be id function, $f(x) = x$.
 
 $x$ follows prob dist $p$.
