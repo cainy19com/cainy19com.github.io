@@ -1,14 +1,14 @@
 # Binomial Distribution
 
-xxx
-
-https://www.mathsisfun.com/numbers/factorial.html
-
 https://www.mathsisfun.com/data/binomial-distribution.html
 
-https://www.mathsisfun.com/pascals-triangle.html
-
 ---
+
+3 tosses of coin,
+which is $2^3=8$ numbers of combinations,
+how many of them have 2 heads?
+
+This is the formula.
 
 ```meth
 \displaystyle
@@ -18,14 +18,22 @@ https://www.mathsisfun.com/pascals-triangle.html
 \\[10px]
 
 \displaystyle
-\binom 5 3 =
-\frac{5!}{3!\cdot (5-3)!} =
-10
+\binom 3 2 =
+\frac{3!}{2!\cdot (3-2)!} = 3
 ```
 
 ---
 
-Formula
+What is the probability
+of having 2 heads
+out of all combinations in 3 tosses?
+
+This is the formula.
+
+In a simpe fair coin toss,
+chance of success is 50 50,
+this formula also takes care of 
+uneven probability.
 
 ```meth
 \displaystyle
