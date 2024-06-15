@@ -11,7 +11,18 @@ $p$ is constant for all trails
 
 ---
 
+```meth
+\displaystyle
+\binom n x =
+\frac{n!}{x!(n-x)!}
 
+\\[10px]
+
+\displaystyle
+\binom 5 3 =
+\frac{5!}{3!\cdot (5-3)!} =
+10
+```
 
 ---
 
