@@ -29,6 +29,13 @@ https://katex.org/
 
 ---
 
+Without photographic memory,
+the next best thing
+other than writing
+is typing math.
+
+---
+
 https://cainy19com.github.io/op-mehico-esse/correlation
 
 https://cainy19com.github.io/op-mehico-esse/gaussian-pdf
