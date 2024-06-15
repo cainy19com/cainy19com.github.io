@@ -10,7 +10,7 @@
 ```
 
 Sum prob weighted $f$ of $x$,
-$f(x)$ could be id function &mdash;
+$f(x)$ could be id function,
 $f(x) = x$.
 
 $x$ follows prob dist $p$.
