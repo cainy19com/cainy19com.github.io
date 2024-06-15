@@ -110,6 +110,28 @@ q: x \sim \mathbb N(\mu_2, \sigma_2^2)
 ```
 
 ```meth
+\sigma^2 =
+\mathbb E\Big[(x-\mu)^2\Big]
+
+\\[5px]
+
+= \mathbb E(x^2)+ \mathbb E(\mu^2)-\mathbb E(2\mu x)
+
+\\[5px]
+
+= \mathbb E(x^2)+\mu^2-2\mu \mathbb E(x)
+
+\\[5px]
+
+= \mathbb E(x^2)+\mu^2-2\mu \mu
+
+\\[10px]
+
+\mathbb E(x^2) = \sigma^2+\mu^2
+
+```
+
+```meth
 \large
 
 \begin{aligned}
