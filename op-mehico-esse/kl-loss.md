@@ -1,20 +1,21 @@
 # KL-Divergence Loss
 
-Expectation:
+Expectation
 
 
 ```meth
-E_{x \sim p}[f(x)] = \sum_x p(x) f(x)
+\displaystyle
+\mathbb E_{x \sim p}[f(x)] = \sum_x p(x) f(x)
 ```
 
-Sum prob weighted ($f$ of) $x$,
+Sum prob weighted $f$ of $x$,
 $x$ follows prob dist $p$,
-$f(x)$ could be id $f$, $f(x) = x$.
+$f(x)$ could be id function, $f(x) = x$.
 
 ---
 
 
-Self-information:
+Self-information
 
 
 ```meth
@@ -29,12 +30,12 @@ I(p) = - \log p(x)
 
 
 
-Entropy:
+Entropy
 
 
 ```meth
+\displaystyle
 H(p) = E_{x \sim p}[I(p)]
-\\
 = - \sum_x p(x) \log p(x)
 ```
 
@@ -60,23 +61,19 @@ Sum prob weighted self-info.
 
 
 
-Cross-entropy:
+Cross-entropy
 
 
 ```meth
 H(p,q) = E_{x \sim p}[I(q)]
-\\
 = - \sum_x p(x) \log q(x)
 ```
 
+Note that,
+$x$ follows $p$ in $E$,
+$x$ follows $q$ in $I$.
 
-```
-note that
-x follows p in E
-x follows q in I
-
-Sum prob-p weighted I of q
-```
+Sum prob $p$ weighted $I$ of $q$.
 
 
 ---
@@ -107,17 +104,17 @@ KL-divergence:
 \begin{aligned}
 
 & D_{KL}(p||q) = H(p,q) - H(p)
-\\[5px] &=
+\\[10px] &=
 E_{x \sim p}[I(q)] - E_{x \sim p}[I(p)]
-\\[5px] &=
+\\[10px] &=
 - \sum p \log q + \sum p \log p
-\\[5px] &=
+\\[10px] &=
 \sum (p \log p - p \log q)
-\\[5px] &=
+\\[10px] &=
 \sum p \log \frac{p}{q}
-\\[5px] &=
+\\[10px] &=
 E_{x \sim p}[\log \frac{p}{q}]
-\\[5px] &=
+\\[10px] &=
 E_{x \sim p}[\log p - \log q]
 
 \end{aligned}
@@ -179,13 +176,10 @@ N_{PDF} = \frac{1}{\sqrt{2π}σ} \exp[-\frac{1}{2}(\frac{x-μ}{σ})^2]
 
 
 ```meth
-\displaylines{
-
 p: x \sim N(\mu_1, \sigma_1^2)
 \\
 q: x \sim N(\mu_2, \sigma_2^2)
 
-}
 ```
 
 
