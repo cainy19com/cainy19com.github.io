@@ -106,6 +106,10 @@ e^{-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu)}
 
 \\[5px]
 
+X \sim \mathcal N(\mu,\sigma^2)
+
+\\[5px]
+
 X \sim \mathcal N(\mu,\Sigma)
 ```
 
