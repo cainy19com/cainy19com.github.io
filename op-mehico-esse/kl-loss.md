@@ -8,8 +8,8 @@ Expectation
 \mathbb E_{x \sim p}[f(x)] = \sum_x p(x) f(x)
 ```
 
-Sum prob weighted $f$ of $x$,
-$x$ follows prob dist $p$,
+Sum prob weighted $f$ of $x$, \
+$x$ follows prob dist $p$, \
 $f(x)$ could be id function, $f(x) = x$.
 
 ---
@@ -35,7 +35,7 @@ Entropy
 
 ```meth
 \displaystyle
-H(p) = E_{x \sim p}[I(p)]
+\mathcal H(p) = \mathbb E_{x \sim p}[I(p)]
 = - \sum_x p(x) \log p(x)
 ```
 
@@ -65,12 +65,12 @@ Cross-entropy
 
 
 ```meth
-H(p,q) = E_{x \sim p}[I(q)]
+\mathcal H(p,q) = \mathbb E_{x \sim p}[I(q)]
 = - \sum_x p(x) \log q(x)
 ```
 
-Note that,
-$x$ follows $p$ in $E$,
+Note that, \
+$x$ follows $p$ in $E$, \
 $x$ follows $q$ in $I$.
 
 Sum prob $p$ weighted $I$ of $q$.
@@ -97,25 +97,30 @@ Sum prob $p$ weighted $I$ of $q$.
 
 
 
-KL-divergence:
+KL-divergence
 
 
 ```meth
 \begin{aligned}
 
-& D_{KL}(p||q) = H(p,q) - H(p)
+& D_{KL}(p||q) = 
+\mathcal H(p,q) - \mathcal H(p)
+
 \\[10px] &=
-E_{x \sim p}[I(q)] - E_{x \sim p}[I(p)]
+
+\mathbb E_{x \sim p}[I(q)] - \mathbb E_{x \sim p}[I(p)]
+
 \\[10px] &=
+
 - \sum p \log q + \sum p \log p
 \\[10px] &=
 \sum (p \log p - p \log q)
 \\[10px] &=
 \sum p \log \frac{p}{q}
 \\[10px] &=
-E_{x \sim p}[\log \frac{p}{q}]
+\mathbb E_{x \sim p}[\log \frac{p}{q}]
 \\[10px] &=
-E_{x \sim p}[\log p - \log q]
+\mathbb E_{x \sim p}[\log p - \log q]
 
 \end{aligned}
 ```
@@ -145,33 +150,22 @@ KL-divergence for normal distribution:
 https://statproofbook.github.io/P/norm-kl.html
 
 
-```
-x is random variable
-N is normal dist
-```
+$<>$ denotes $\mathbb E_{x \sim p}$ \
+$\langle x \rangle = \mu_1$ \
+$\langle x^2 \rangle = \mu_1^2 + \sigma_1^2$
 
-
-```meth
-<> \text{ denotes } E_{x \sim p}
-\\
-\langle x \rangle = \mu_1
-\\
-\langle x^2 \rangle = \mu_1^2 + \sigma_1^2
-
-```
 
 
 https://math.stackexchange.com/questions/918804/expected-value-equal-to-expected-value-of-expected-value-squared
 
 
-```
-E is linear operator
+$\mathbb E$ is linear operator, \
 Note that x follows p for E
 ```
 
 
 ```meth
-N_{PDF} = \frac{1}{\sqrt{2π}σ} \exp[-\frac{1}{2}(\frac{x-μ}{σ})^2]
+\mathcal N_{PDF} = \frac{1}{\sqrt{2π}σ} \exp[-\frac{1}{2}(\frac{x-μ}{σ})^2]
 ```
 
 
