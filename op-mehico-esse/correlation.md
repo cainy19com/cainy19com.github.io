@@ -25,16 +25,6 @@ https://www.mathsisfun.com/data/standard-deviation.html
 
 ---
 
-Double check the formulas presented on the website.
-
-https://www.google.com/search?q=correlation+formula
-
-https://www.google.com/search?q=covariance+formula
-
-https://www.google.com/search?q=variance+formula
-
----
-
 What is the history of the correlation formula?
 
 What is the intuition behind it?
