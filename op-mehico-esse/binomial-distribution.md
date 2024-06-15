@@ -1,14 +1,12 @@
-$n$ is number of trials,
-each trail has two outcomes,
-and is independent
+# Binomial Distribution
 
-$x$ is number of success,
-$n-x$ is number of failure
+xxx
 
-$p$ is probability of success,
-$1-p$ is prob of failure,
-$p$ is constant for all trails
+https://www.mathsisfun.com/numbers/factorial.html
 
+https://www.mathsisfun.com/data/binomial-distribution.html
+
+https://www.mathsisfun.com/pascals-triangle.html
 ---
 
 ```meth
@@ -24,12 +22,6 @@ $p$ is constant for all trails
 10
 ```
 
-https://www.mathsisfun.com/numbers/factorial.html
-
-https://www.mathsisfun.com/data/binomial-distribution.html
-
-https://www.mathsisfun.com/pascals-triangle.html
-
 ---
 
 Formula
@@ -40,6 +32,17 @@ Formula
 p^x
 (1-p)^{n-x}
 ```
+
+$n$ is number of trials,
+each trail has two outcomes,
+and is independent.
+
+$x$ is number of success,
+$n-x$ is number of failure.
+
+$p$ is probability of success,
+$1-p$ is prob of failure,
+$p$ is constant for all trails.
 
 ---
 
