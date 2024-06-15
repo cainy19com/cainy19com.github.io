@@ -153,19 +153,15 @@ $x$ follows $q$ in $I$.
 
 
 
-KL-divergence for normal distribution
+## KL-divergence for normal distribution
 
 
 https://statproofbook.github.io/P/norm-kl.html
 
 
-$<>$ denotes $\mathbb E_{x \sim p}$\
-$\langle x \rangle = \mu_1$\
+$<>$ denotes $\mathbb E_{x \sim p}$ \ 
+$\langle x \rangle = \mu_1$ \ 
 $\langle x^2 \rangle = \mu_1^2 + \sigma_1^2$
-
-
-
-https://math.stackexchange.com/questions/918804/expected-value-equal-to-expected-value-of-expected-value-squared
 
 
 $\mathbb E$ is linear operator
@@ -174,15 +170,11 @@ Note that x follows p for E
 
 
 
-```meth
-\mathcal N_{PDF} = \frac{1}{\sqrt{2π}σ} \exp[-\frac{1}{2}(\frac{x-μ}{σ})^2]
-```
-
 
 ```meth
-p: x \sim N(\mu_1, \sigma_1^2)
+p: x \sim \mathbb N(\mu_1, \sigma_1^2)
 \\
-q: x \sim N(\mu_2, \sigma_2^2)
+q: x \sim \mathbb N(\mu_2, \sigma_2^2)
 
 ```
 
@@ -190,13 +182,13 @@ q: x \sim N(\mu_2, \sigma_2^2)
 ```meth
 \begin{aligned}
 
-& D_{KL}(p||q) = \int p \log \frac{p}{q}dx
+& \mathbb D_{KL}(p||q) = \int p \log \frac{p}{q}dx
 
 \\[10px] &=
-\int N_1 \log \frac{N_1}{N_2} dx
+\int \mathbb N_1 \log \frac{\mathbb N_1}{\mathbb N_2} dx
 
 \\[10px] &=
-\Big\langle \log \frac{N_1}{N_2} \Big\rangle
+\Big\langle \log \frac{\mathbb N_1}{\mathbb N_2} \Big\rangle
 
 \\[10px] &=
 \Big\langle\log\frac{\frac{1}{\sqrt{2π}σ_1}\exp[-\frac{1}{2}(\frac{x-μ_1}{σ_1})^2]}
