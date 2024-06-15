@@ -2,26 +2,13 @@
 
 ## Expectation
 
-a
-b
-
-a\
-b
-
-a\ 
-b
-
-a__
-b
-
 ```meth
 \displaystyle
 \mathbb E_{x \sim p}[f(x)] 
 = \sum_x p(x) f(x)
 ```
 
-Sum prob weighted $f$ of $x$,
-<br> <br> 
+Sum prob weighted $f$ of $x$,BRRR
 $f(x)$ could be id function, $f(x) = x$.
 
 $x$ follows prob dist $p$.
