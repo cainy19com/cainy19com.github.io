@@ -3,7 +3,6 @@
 ## Expectation
 
 ```meth
-\large
 \displaystyle
 \mathbb E_{x \sim p}[f(x)] 
 = \sum_x p(x) f(x)
@@ -19,14 +18,12 @@ $x$ follows prob dist $p$.
 ## Self-information
 
 ```meth
-\large
 \mathbb I(p) = -\log p(x)
  ```
 
 ## Entropy
 
 ```meth
-\large
 \displaystyle
 \mathbb H(p) = 
 \mathbb E_{x \sim p}[\mathbb I(p)]
@@ -40,7 +37,6 @@ Sum prob weighted self-info.
 
 
 ```meth
-\large
 \displaystyle
 \mathbb H(p,q) = 
 \mathbb E_{x \sim p}[\mathbb I(q)]
@@ -59,7 +55,6 @@ $x$ follows $q$ in $I$.
 
 
 ```meth
-\large
 \begin{aligned}
 
 & \mathbb D_{KL}(p||q) = 
@@ -87,7 +82,7 @@ $x$ follows $q$ in $I$.
 
 
 
-## KL-divergence for normal distribution
+## KL-divergence for univariate normal distribution
 
 
 https://statproofbook.github.io/P/norm-kl.html
@@ -96,18 +91,22 @@ $\mathbb E$ is linear operator,
 $x$ follows $p$ for $\mathbb E$.
 
 ```meth
-\large
-
 p: x \sim \mathbb N(\mu_1, \sigma_1^2)
 \\[5px]
 q: x \sim \mathbb N(\mu_2, \sigma_2^2)
-\\[10px]
+```
+
+```meth
 <> \text{ denotes } \mathbb E_{x \sim p}
 \\[5px]
 \langle x \rangle = \mu_1
 \\[5px]
 \langle x^2 \rangle = \mu_1^2 + \sigma_1^2
 ```
+The last equation,
+see the book
+*Math and Architectures of Deep Learning
+by Krishnendu Chaudhury*
 
 ```meth
 \sigma^2 =
@@ -123,17 +122,11 @@ q: x \sim \mathbb N(\mu_2, \sigma_2^2)
 
 \\[5px]
 
-= \mathbb E(x^2)+\mu^2-2\mu \mu
-
-\\[10px]
-
-\mathbb E(x^2) = \sigma^2+\mu^2
+= \mathbb E(x^2)+\mu^2-2\mu^2
 
 ```
 
 ```meth
-\large
-
 \begin{aligned}
 
 & \mathbb D_{KL}(p||q) = \int p \log \frac{p}{q}dx
@@ -168,7 +161,7 @@ q: x \sim \mathbb N(\mu_2, \sigma_2^2)
 
 
 
-## KL loss for multivariate normal distribution 
+## KL-divergence for multivariate normal distribution 
 
 https://statproofbook.github.io/P/mvn-kl.html
 
