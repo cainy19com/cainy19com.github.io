@@ -43,11 +43,11 @@ Sum prob weighted self-info.
 = - \sum_x p(x) \log q(x)
 ```
 
-Sum prob $p$ weighted $I$ of $q$.
+Sum prob $p$ weighted $\mathbb I$ of $q$.
 
 Note that,
-$x$ follows $p$ in $E$,
-$x$ follows $q$ in $I$.
+$x$ follows $p$ in $\mathbb E$,
+$x$ follows $q$ in $\mathbb I$.
 
 
 
