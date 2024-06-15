@@ -1,9 +1,6 @@
 # KL-Divergence Loss
 
-
-
 ## Expectation
-
 
 ```meth
 \displaystyle
@@ -11,18 +8,16 @@
 = \sum_x p(x) f(x)
 ```
 
-Sum prob weighted $f$ of $x$,   
+Sum prob weighted $f$ of $x$,<br> 
 $f(x)$ could be id function, $f(x) = x$.
 
 $x$ follows prob dist $p$.
-
 
 
 ---
 
 
 ## Self-information
-
 
 ```meth
 \mathbb I(p) = - \log p(x)
@@ -32,12 +27,7 @@ $x$ follows prob dist $p$.
 ---
 
 
-
-
-
-
 ## Entropy
-
 
 ```meth
 \displaystyle
@@ -52,22 +42,6 @@ Sum prob weighted self-info.
 ---
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Cross-entropy
 
 
@@ -80,8 +54,8 @@ Sum prob weighted self-info.
 
 Sum prob $p$ weighted $I$ of $q$.
 
-Note that,\
-$x$ follows $p$ in $E$,\
+Note that,<br> 
+$x$ follows $p$ in $E$,<br> 
 $x$ follows $q$ in $I$.
 
 ---
@@ -158,21 +132,15 @@ $x$ follows $q$ in $I$.
 
 https://statproofbook.github.io/P/norm-kl.html
 
-
-$<>$ denotes $\mathbb E_{x \sim p}$  
-$\langle x \rangle = \mu_1$  
-$\langle x^2 \rangle = \mu_1^2 + \sigma_1^2$
-
-
-$\mathbb E$ is linear operator
-
-Note that $x$ follows $p$ for $\mathbb E$
-
-
-
-$p: x \sim \mathbb N(\mu_1, \sigma_1^2)$   
+$p: x \sim \mathbb N(\mu_1, \sigma_1^2)$<br> 
 $q: x \sim \mathbb N(\mu_2, \sigma_2^2)$
 
+$\mathbb E$ is linear operator,<br> 
+note that $x$ follows $p$ for $\mathbb E$.
+
+$<>$ denotes $\mathbb E_{x \sim p}$<br> 
+$\langle x \rangle = \mu_1$<br> 
+$\langle x^2 \rangle = \mu_1^2 + \sigma_1^2$
 
 
 ```meth
