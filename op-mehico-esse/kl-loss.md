@@ -11,7 +11,7 @@
 = \sum_x p(x) f(x)
 ```
 
-Sum prob weighted $f$ of $x$,\\
+Sum prob weighted $f$ of $x$,   
 $f(x)$ could be id function, $f(x) = x$.
 
 $x$ follows prob dist $p$.
@@ -159,24 +159,20 @@ $x$ follows $q$ in $I$.
 https://statproofbook.github.io/P/norm-kl.html
 
 
-$<>$ denotes $\mathbb E_{x \sim p}$ \ 
-$\langle x \rangle = \mu_1$ \ 
+$<>$ denotes $\mathbb E_{x \sim p}$  
+$\langle x \rangle = \mu_1$  
 $\langle x^2 \rangle = \mu_1^2 + \sigma_1^2$
 
 
 $\mathbb E$ is linear operator
 
-Note that x follows p for E
+Note that $x$ follows $p$ for $\mathbb E$
 
 
 
+$p: x \sim \mathbb N(\mu_1, \sigma_1^2)$   
+$q: x \sim \mathbb N(\mu_2, \sigma_2^2)$
 
-```meth
-p: x \sim \mathbb N(\mu_1, \sigma_1^2)
-\\
-q: x \sim \mathbb N(\mu_2, \sigma_2^2)
-
-```
 
 
 ```meth
