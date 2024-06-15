@@ -5,12 +5,15 @@ Expectation
 
 ```meth
 \displaystyle
-\mathbb E_{x \sim p}[f(x)] = \sum_x p(x) f(x)
+\mathbb E_{x \sim p}[f(x)] 
+= \sum_x p(x) f(x)
 ```
 
-Sum prob weighted $f$ of $x$, \
-$x$ follows prob dist $p$, \
-$f(x)$ could be id function, $f(x) = x$.
+Sum prob weighted $f$ of $x$
+
+$x$ follows prob dist $p$
+
+$f(x)$ could be id function, $f(x) = x$
 
 ---
 
@@ -19,7 +22,7 @@ Self-information
 
 
 ```meth
-I(p) = - \log p(x)
+\mathbb I(p) = - \log p(x)
  ```
 
 
@@ -35,7 +38,8 @@ Entropy
 
 ```meth
 \displaystyle
-\mathcal H(p) = \mathbb E_{x \sim p}[I(p)]
+\mathbb H(p) = 
+\mathbb E_{x \sim p}[\mathbb I(p)]
 = - \sum_x p(x) \log p(x)
 ```
 
@@ -65,16 +69,17 @@ Cross-entropy
 
 
 ```meth
-\mathcal H(p,q) = \mathbb E_{x \sim p}[I(q)]
+\displaystyle
+\mathbb H(p,q) = 
+\mathbb E_{x \sim p}[\mathbb I(q)]
 = - \sum_x p(x) \log q(x)
 ```
 
-Note that, \
-$x$ follows $p$ in $E$, \
-$x$ follows $q$ in $I$.
-
 Sum prob $p$ weighted $I$ of $q$.
 
+Note that,\
+$x$ follows $p$ in $E$,\
+$x$ follows $q$ in $I$.
 
 ---
 
@@ -103,12 +108,13 @@ KL-divergence
 ```meth
 \begin{aligned}
 
-& D_{KL}(p||q) = 
-\mathcal H(p,q) - \mathcal H(p)
+& \mathbb D_{KL}(p||q) = 
+\mathbb H(p,q) - \mathbb H(p)
 
 \\[10px] &=
 
-\mathbb E_{x \sim p}[I(q)] - \mathbb E_{x \sim p}[I(p)]
+\mathbb E_{x \sim p}[\mathbb I(q)] 
+- \mathbb E_{x \sim p}[\mathbb I(p)]
 
 \\[10px] &=
 
@@ -144,14 +150,14 @@ KL-divergence
 
 
 
-KL-divergence for normal distribution:
+KL-divergence for normal distribution
 
 
 https://statproofbook.github.io/P/norm-kl.html
 
 
-$<>$ denotes $\mathbb E_{x \sim p}$ \
-$\langle x \rangle = \mu_1$ \
+$<>$ denotes $\mathbb E_{x \sim p}$\
+$\langle x \rangle = \mu_1$\
 $\langle x^2 \rangle = \mu_1^2 + \sigma_1^2$
 
 
@@ -159,9 +165,10 @@ $\langle x^2 \rangle = \mu_1^2 + \sigma_1^2$
 https://math.stackexchange.com/questions/918804/expected-value-equal-to-expected-value-of-expected-value-squared
 
 
-$\mathbb E$ is linear operator, \
+$\mathbb E$ is linear operator
+
 Note that x follows p for E
-```
+
 
 
 ```meth
@@ -182,29 +189,29 @@ q: x \sim N(\mu_2, \sigma_2^2)
 
 & D_{KL}(p||q) = \int p \log \frac{p}{q}dx
 
-\\[5px] &=
+\\[10px] &=
 \int N_1 \log \frac{N_1}{N_2} dx
 
-\\[5px] &=
+\\[10px] &=
 \Big\langle \log \frac{N_1}{N_2} \Big\rangle
 
-\\[5px] &=
+\\[10px] &=
 \Big\langle\log\frac{\frac{1}{\sqrt{2π}σ_1}\exp[-\frac{1}{2}(\frac{x-μ_1}{σ_1})^2]}
 {\frac{1}{\sqrt{2π}σ_2}\exp[-\frac{1}{2}(\frac{x-μ_2}{σ_2})^2]}\Big\rangle
 
-\\[5px] &=
+\\[10px] &=
 \Big\langle\log\big[(\frac{σ_1}{σ_2})^{-1}\exp(-\frac{1}{2}…+\frac{1}{2}…)\big]\Big\rangle
 
-\\[5px] &=
+\\[10px] &=
 \frac{1}{2}\Big[-\langle\log\frac{σ_1^2}{σ_2^2}\rangle-\frac{\langle(x-μ_1)^2\rangle}{σ_1^2}+\frac{\langle x^2+μ_2^2-2x μ_2\rangle}{σ_2^2}\Big]
 
-\\[5px] &=
+\\[10px] &=
 \frac{1}{2}\Big[-\log\frac{σ_1^2}{σ_2^2}-1+\frac{\langle x^2\rangle+\langle μ_2^2\rangle-\langle 2xμ_2\rangle}{σ_2^2}\Big]
 
-\\[5px] &=
+\\[10px] &=
 \frac{1}{2}\Big[-\log\frac{σ_1^2}{σ_2^2}-1+\frac{μ_1^2+ σ_1^2+μ_2^2-2μ_1μ_2}{σ_2^2}\Big]
 
-\\[5px] &=
+\\[10px] &=
 \frac{1}{2}\Big[-\log\frac{σ_1^2}{σ_2^2}-1+\frac{σ_1^2}{σ_2^2}+ \frac{(μ_1-μ_2)^2}{σ_2^2}\Big]
 
 \end{aligned}
