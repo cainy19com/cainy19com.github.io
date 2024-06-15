@@ -8,13 +8,10 @@
 = \sum_x p(x) f(x)
 ```
 
-Sum prob weighted $f$ of $x$,\
+Sum prob weighted $f$ of $x$,
 $f(x)$ could be id function, $f(x) = x$.
 
 $x$ follows prob dist $p$.
-
-
----
 
 
 ## Self-information
@@ -22,10 +19,6 @@ $x$ follows prob dist $p$.
 ```meth
 \mathbb I(p) = - \log p(x)
  ```
-
-
----
-
 
 ## Entropy
 
@@ -37,9 +30,6 @@ $x$ follows prob dist $p$.
 ```
 
 Sum prob weighted self-info.
-
-
----
 
 
 ## Cross-entropy
@@ -54,28 +44,9 @@ Sum prob weighted self-info.
 
 Sum prob $p$ weighted $I$ of $q$.
 
-Note that,<br> 
-$x$ follows $p$ in $E$,<br> 
+Note that,
+$x$ follows $p$ in $E$,
 $x$ follows $q$ in $I$.
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -109,39 +80,25 @@ $x$ follows $q$ in $I$.
 ```
 
 
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## KL-divergence for normal distribution
 
 
 https://statproofbook.github.io/P/norm-kl.html
 
-$p: x \sim \mathbb N(\mu_1, \sigma_1^2)$<br> 
-$q: x \sim \mathbb N(\mu_2, \sigma_2^2)$
+```meth
+p: x \sim \mathbb N(\mu_1, \sigma_1^2)
+q: x \sim \mathbb N(\mu_2, \sigma_2^2)
+```
 
-$\mathbb E$ is linear operator,<br> 
+$\mathbb E$ is linear operator,
 note that $x$ follows $p$ for $\mathbb E$.
 
-$<>$ denotes $\mathbb E_{x \sim p}$<br> 
-$\langle x \rangle = \mu_1$<br> 
-$\langle x^2 \rangle = \mu_1^2 + \sigma_1^2$
-
+```meth
+<> \text{ denotes } \mathbb E_{x \sim p}
+\langle x \rangle = \mu_1
+\langle x^2 \rangle = \mu_1^2 + \sigma_1^2
+```
 
 ```meth
 \begin{aligned}
