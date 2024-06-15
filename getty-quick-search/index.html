@@ -1,0 +1,87 @@
+<!doctype html>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 30px;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+</style>
+
+<p>
+Want pics? Getty is like Nike or Adidas
+-
+the best photo place one can explore.
+</p>
+
+<p>
+Want pics - none is better than Getty.
+</p>
+
+<form>
+ <input type="text" id="kw" placeholder="fish africa">
+ <input type="tel" id="d1" placeholder="date 1">
+ <input type="tel" id="d2" placeholder="date 2">
+ <input type="button" id="go" value="🔍">
+</form>
+
+<script>
+const $ = document.getElementById.bind(document)
+
+go.onclick = () => {
+  let url = "https://www.gettyimages.hk/圖片/xxx?assettype=image&begindate=xxx&enddate=xxx&family=editorial&phrase=xxx&recency=daterange&sort=oldest&page=1"
+
+  let t
+
+  const kw = $("kw")
+  const d1 = $("d1") 
+  const d2 = $("d2")
+  const go = $("go")
+
+  const kwV = kw.value.trim()
+  let d1V = d1.value.trim()
+  let d2V = d2.value.trim()
+
+  if (d1V.length < 5)
+    d1V += "0101"
+  if (d2V.length < 5)
+    d2V += "0101"
+
+  t = kwV.replaceAll(" ", "-")
+  url = url.replace("xxx", t)
+
+  t = d1V.slice(0, 4)
+    + "-"
+    + d1V.slice(4, 6)
+    + "-"
+    + d1V.slice(6, 8)
+  url = url.replace("xxx", t)
+
+  t = d2V.slice(0, 4)
+    + "-"
+    + d2V.slice(4, 6)
+    + "-"
+    + d2V.slice(6, 8)
+  url = url.replace("xxx", t)
+
+  t = kwV.replaceAll(" ", "%20")
+  url = url.replace("xxx", t)
+
+  window.open(url, "_blank")
+}
+
+</script>
