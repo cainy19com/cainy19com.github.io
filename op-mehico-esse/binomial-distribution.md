@@ -57,10 +57,21 @@ or $p$ is constant for all trails.
 
 ---
 
-In a simpe fair coin toss,
-chance of success is 50 50,
-this formula also takes care of 
-uneven probability.
+```meth
+\displaystyle
+\binom n x
+
+\\[10px]
+
+p^x
+(1-p)^{n-x}
+```
+
+First half calculates
+how many outcomes we want.
+
+Second half calculates
+the probability of each outcome.
 
 ---
 
