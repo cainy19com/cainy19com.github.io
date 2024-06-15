@@ -68,10 +68,22 @@ p^x
 ```
 
 First half calculates
-how many outcomes we want.
+the number of outcomes
+that we want.
 
 Second half calculates
-the probability of each outcome.
+the probability of
+having one of those outcomes.
+
+Because the only difference
+of each combination
+is the order (of heads and tails),
+the probability of that combination
+is the same.
+
+So we just multiply the two.
+
+Maths is fun link explains quite well.
 
 ---
 
