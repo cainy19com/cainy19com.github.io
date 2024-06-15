@@ -4,6 +4,7 @@
 
 ```meth
 \large
+\displaystyle
 \mathbb E_{x \sim p}[f(x)] 
 = \sum_x p(x) f(x)
 ```
@@ -26,6 +27,7 @@ $x$ follows prob dist $p$.
 
 ```meth
 \large
+\displaystyle
 \mathbb H(p) = 
 \mathbb E_{x \sim p}[\mathbb I(p)]
 = - \sum_x p(x) \log p(x)
@@ -39,6 +41,7 @@ Sum prob weighted self-info.
 
 ```meth
 \large
+\displaystyle
 \mathbb H(p,q) = 
 \mathbb E_{x \sim p}[\mathbb I(q)]
 = - \sum_x p(x) \log q(x)
