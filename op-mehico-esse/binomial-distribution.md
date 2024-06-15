@@ -24,6 +24,12 @@ $p$ is constant for all trails
 10
 ```
 
+https://www.mathsisfun.com/numbers/factorial.html
+
+https://www.mathsisfun.com/data/binomial-distribution.html
+
+https://www.mathsisfun.com/pascals-triangle.html
+
 ---
 
 Formula
