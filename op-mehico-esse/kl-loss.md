@@ -86,17 +86,18 @@ $x$ follows $q$ in $I$.
 
 https://statproofbook.github.io/P/norm-kl.html
 
+$\mathbb E$ is linear operator,
+$x$ follows $p$ for $\mathbb E$.
+
 ```meth
 p: x \sim \mathbb N(\mu_1, \sigma_1^2)
+\\
 q: x \sim \mathbb N(\mu_2, \sigma_2^2)
-```
-
-$\mathbb E$ is linear operator,
-note that $x$ follows $p$ for $\mathbb E$.
-
-```meth
+\\[10px]
 <> \text{ denotes } \mathbb E_{x \sim p}
+\\
 \langle x \rangle = \mu_1
+\\
 \langle x^2 \rangle = \mu_1^2 + \sigma_1^2
 ```
 
