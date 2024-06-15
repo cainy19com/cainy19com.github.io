@@ -9,7 +9,8 @@
 ```
 
 Sum prob weighted $f$ of $x$,
-$f(x)$ could be id function, $f(x) = x$.
+$f(x)$ could be id function &mdash;
+$f(x) = x$.
 
 $x$ follows prob dist $p$.
 
@@ -17,13 +18,14 @@ $x$ follows prob dist $p$.
 ## Self-information
 
 ```meth
-\mathbb I(p) = - \log p(x)
+\large
+\mathbb I(p) = -\log p(x)
  ```
 
 ## Entropy
 
 ```meth
-\displaystyle
+\large
 \mathbb H(p) = 
 \mathbb E_{x \sim p}[\mathbb I(p)]
 = - \sum_x p(x) \log p(x)
@@ -36,7 +38,7 @@ Sum prob weighted self-info.
 
 
 ```meth
-\displaystyle
+\large
 \mathbb H(p,q) = 
 \mathbb E_{x \sim p}[\mathbb I(q)]
 = - \sum_x p(x) \log q(x)
@@ -54,6 +56,7 @@ $x$ follows $q$ in $I$.
 
 
 ```meth
+\large
 \begin{aligned}
 
 & \mathbb D_{KL}(p||q) = 
@@ -90,6 +93,8 @@ $\mathbb E$ is linear operator,
 $x$ follows $p$ for $\mathbb E$.
 
 ```meth
+\large
+
 p: x \sim \mathbb N(\mu_1, \sigma_1^2)
 \\
 q: x \sim \mathbb N(\mu_2, \sigma_2^2)
@@ -102,6 +107,8 @@ q: x \sim \mathbb N(\mu_2, \sigma_2^2)
 ```
 
 ```meth
+\large
+
 \begin{aligned}
 
 & \mathbb D_{KL}(p||q) = \int p \log \frac{p}{q}dx
