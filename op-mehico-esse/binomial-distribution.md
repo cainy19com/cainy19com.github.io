@@ -35,15 +35,16 @@ p^x
 ```
 
 $n$ is number of trials,
-each trail has two outcomes,
-and is independent.
+each trail has 2 (bi) outcomes.
 
 $x$ is number of success,
 $n-x$ is number of failure.
 
 $p$ is probability of success,
-$1-p$ is prob of failure,
-$p$ is constant for all trails.
+$1-p$ is prob of failure.
+
+Each trial is independent,
+or $p$ is constant for all trails.
 
 ---
 
