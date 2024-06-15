@@ -7,6 +7,8 @@
 
 ## Projects 🚀
 
+https://cainy19com.github.io/getty-quick-search
+
 https://cainy19com.github.io/online-katex-editor
 
 https://cainy19com.github.io/op-mehico-esse
