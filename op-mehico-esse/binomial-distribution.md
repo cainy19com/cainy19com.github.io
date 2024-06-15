@@ -1,4 +1,4 @@
-$n& is number of trials,
+$n$ is number of trials,
 each trail has two outcomes,
 and is independent
 
