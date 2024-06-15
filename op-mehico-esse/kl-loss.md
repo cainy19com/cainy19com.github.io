@@ -2,6 +2,18 @@
 
 ## Expectation
 
+a
+b
+
+a\
+b
+
+a\ 
+b
+
+a__
+b
+
 ```meth
 \displaystyle
 \mathbb E_{x \sim p}[f(x)] 
