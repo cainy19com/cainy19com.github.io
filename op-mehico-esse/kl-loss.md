@@ -3,7 +3,7 @@
 ## Expectation
 
 ```meth
-\displaystyle
+\large
 \mathbb E_{x \sim p}[f(x)] 
 = \sum_x p(x) f(x)
 ```
