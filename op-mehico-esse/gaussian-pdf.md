@@ -182,9 +182,9 @@ it can quickly get complicated.
 
 There will be combinations like
 $(x_1-\mu_1)(x_2-\mu_2)$
-other than squared,
+other than simply one of them squared,
 and their coefficients
-also as combinations of sigmas...
+also as combinations of products of sigmas...
 
 ---
 
@@ -201,8 +201,8 @@ then squared.
 
 In 2D and above,
 first get error vector,
-then linear transform it with $\Sigma^{-1}$,
-before dot product (within matrix)
+then linear transform it by $\Sigma^{-1}$,
+before dot product (in matrix)
 with the error vector,
 to get a measure of agreement or score (between vectors).
 
