@@ -146,8 +146,17 @@ q: x \sim \mathbb N(\mu_2, \sigma_2^2)
 
 
 
+## KL loss for multivariate normal distribution 
 
----
+https://statproofbook.github.io/P/mvn-kl.html
+
+
+
+
+
+
+
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
