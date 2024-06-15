@@ -1,5 +1,15 @@
 # Gaussian PDF
 
+Symmetric,
+central values more likely,
+and smooth.
+
+Something to do with
+approximate gambling probability
+and finding the error curve.
+
+---
+
 1D normal pdf is "extremely" memorizable,
 if viewed in this manner,
 inspired by a Desmos graph.
@@ -43,21 +53,6 @@ from astronomy observation errors
 point of view
 is both more natural and easier to understand.
 
-I did not follow the derivation,
-but it does seem natural
-why $e$ and $\pi$ both showed up
-in the formula,
-if the skip
-from likelihood to log likelihood
-is well explained,
-which isn't.
-
-The history offers
-a peace of mind
-and some confidence,
-for what I want is to understand
-the multivariate formula.
-
 ---
 
 Multivariate
@@ -73,7 +68,8 @@ the 1D memory-friendly version
 can still be seen.
 
 Apart from variance became covariance matrix,
-$2\pi$ is raised to $N$th power.
+$2\pi$ is raised to
+$N$th (dimension of vector) power.
 
 There are also determinant and transpose.
 
@@ -113,7 +109,7 @@ X \sim \mathcal N(\mu,\Sigma)
 
 ---
 
-The simplest case.
+The simplest case, from the link.
 
 Covariance matrix is diagonal.
 
