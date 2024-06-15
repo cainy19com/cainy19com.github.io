@@ -33,6 +33,14 @@ The probability formula.
 \binom n x
 p^x
 (1-p)^{n-x}
+
+\\[10px]
+
+\displaystyle
+3 \cdot
+(\frac{1}{2})^2 \cdot
+(1-\frac{1}{2})^{3-2}
+= \frac{3}{8}
 ```
 
 $n$ is number of trials,
