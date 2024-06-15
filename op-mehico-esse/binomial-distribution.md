@@ -1,14 +1,12 @@
 # Binomial Distribution
 
-https://www.mathsisfun.com/data/binomial-distribution.html
-
----
-
-3 tosses of coin,
+$3$ tosses of a fair coin,
 which is $2^3=8$ numbers of combinations,
-how many of them have 2 heads?
+how many of them have $2$ heads?
 
-This is the formula.
+This is a great example from the link.
+
+The formula.
 
 ```meth
 \displaystyle
@@ -22,13 +20,15 @@ This is the formula.
 \frac{3!}{2!\cdot (3-2)!} = 3
 ```
 
+https://www.mathsisfun.com/data/binomial-distribution.html
+
 ---
 
 What is the probability
 of having 2 heads
 out of all combinations in 3 tosses?
 
-This is the formula.
+This is the probability formula.
 
 In a simpe fair coin toss,
 chance of success is 50 50,
