@@ -7,7 +7,6 @@ how many of them have $2$ heads?
 The formula.
 
 ```meth
-\large
 \displaystyle
 \binom n x =
 \frac{n!}{x!(n-x)!}
@@ -30,7 +29,6 @@ out of all combinations in $3$ tosses?
 The probability formula.
 
 ```meth
-\large
 \displaystyle
 \binom n x
 p^x
@@ -60,7 +58,6 @@ or $p$ is constant for all trails.
 ---
 
 ```meth
-\large
 \displaystyle
 \binom n x
 
