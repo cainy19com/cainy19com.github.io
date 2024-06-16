@@ -1,7 +1,7 @@
 In 1D Gaussian PDF formula,
 on the exponent,
 $x-\mu$ is a distance,
-scaled (transformed) by $\sigma$,
+"transformed" (scaling) by $\sigma^{-1}$,
 then squared.
 
 Squaring gets us smooth-curved symmetry.
@@ -9,9 +9,11 @@ Squaring gets us smooth-curved symmetry.
 In 2D and above,
 on the exponent,
 analogously we also expect
-a $\Sigma$ scaled and rotated,
-then squared distance,
-something to do with
+a $\Sigma^{-1}$ transformed
+(scaling and rotation)
+then squared distance.
+
+It has something to do with
 vector $\vec{x}-\vec{\mu}$,
 and all the $\sigma$s in $\vec{\sigma}$,
 there is no squaring needed,
