@@ -57,12 +57,12 @@ const f = e => {
 }
 ["keyup", "blur"].forEach(e => exp.addEventListener(e, f))
 
+if (clear)
 clear.addEventListener('click', e => {
   exp.value = ""
 })
 
 copy.addEventListener('click', e => {
-  alert(exp.value)
   navigator.clipboard.writeText(exp.value)
 })
 
