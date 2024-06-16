@@ -21,7 +21,7 @@ is already a squared distance.
 Plotted against one variable,
 gragh of 1D PDF is a 2D curve,
 there is shift by mean,
-and scaling by variance.
+and scaling by standard deviation.
 
 Plotted against two variables,
 graph of 2D PDF is a 3D surface,
