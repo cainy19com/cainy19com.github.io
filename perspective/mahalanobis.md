@@ -30,5 +30,10 @@ two variables can have correlation between them,
 the PDF surface may be rotated,
 though its base is always an eclipse.
 
+The covariances in $\Sigma$
+caused the rotation,
+multiply $\Sigma^{-1}$
+will undo that transform.
+
 
 
