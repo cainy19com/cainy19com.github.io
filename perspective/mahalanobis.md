@@ -11,9 +11,11 @@ on the exponent,
 analogously we also expect
 a scaled and squared distance,
 something to do with
-the vector $\vec{x}-\vec{\mu}$,
+vector $\vec{x}-\vec{\mu}$,
+and all the $\sigma$s in $\vec{\sigma}$,
 there is no squaring needed,
 because vector dot product
+directly or inside matrix
 is already a squared distance.
 
 Plotted against one variable,
@@ -24,7 +26,9 @@ and scaling by variance.
 Plotted against two variables,
 graph of 2D PDF is a 3D surface,
 apart from shift and scaling,
-variables can have correlation between them,
+two variables can have correlation between them,
 the PDF surface may be rotated,
 though its base is always an eclipse.
+
+
 
