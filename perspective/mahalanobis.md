@@ -1,7 +1,7 @@
 In 1D Gaussian PDF formula,
 on the exponent,
 $x-\mu$ is a distance,
-scaled by $\sigma$,
+scaled (transformed) by $\sigma$,
 then squared.
 
 Squaring gets us smooth-curved symmetry.
@@ -9,7 +9,8 @@ Squaring gets us smooth-curved symmetry.
 In 2D and above,
 on the exponent,
 analogously we also expect
-a scaled and squared distance,
+a $\Sigma$ scaled and rotated,
+then squared distance,
 something to do with
 vector $\vec{x}-\vec{\mu}$,
 and all the $\sigma$s in $\vec{\sigma}$,
@@ -30,10 +31,7 @@ two variables can have correlation between them,
 the PDF surface may be rotated,
 though its base is always an eclipse.
 
-The covariances in $\Sigma$
-caused the rotation,
-multiply $\Sigma^{-1}$
-will undo that transform.
+
 
 
 
